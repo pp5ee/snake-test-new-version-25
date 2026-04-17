@@ -211,11 +211,11 @@ body {
 }
 
 .cell.player-head {
-  background: #4ade80;
+  background: var(--player-head-color, #4ade80);
 }
 
 .cell.player {
-  background: #22c55e;
+  background: var(--player-color, #22c55e);
 }
 
 .cell.ai-head {
